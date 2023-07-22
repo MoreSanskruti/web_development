@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html long="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Table Designing</title>
+        <style>
+           table,td,th{
+            border-bottom: 1px solid;
+            border-color: rgb(0, 12, 37);
+           border-collapse: collapse;
+           }
+           table{
+            width: 50%;
+            margin:auto;
+           }
+           th{
+            padding: 10px;
+            background-color: red;
+            color: white;
+           }
+           td{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+            color: rgb(246, 248, 246);
+           }
+           tr:nth-child(even){
+            background-color: rgb(218,206,206);
+           }
+            tr:nth-child(odd){
+             background-color: rgb(161,155,155);
+            }
+            table>tr:hover{
+                background-color: rgb(143,139,139);
+                color: white;
+            }
+            </style>
+        </head>
+        <body>
+            <table>
+                <tr>
+                    <th> Name </th>
+                    <th> Address </th>
+                    <th> Email</th>
+                </tr>
+                <tr>
+                    <td>Smita</td>
+                    <td>Satara</td>
+                    <td>smita123@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ram</td>
+                    <td>Pune</td>
+                    <td>ram908@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sanika</td>
+                    <td>Karad</td>
+                    <td>sanupatil@gmail.com</td>
+                </tr>
+                <tr>
+                   <td>Arya</td>
+                   <td>Nashik</td>
+                   <td>arya@gmail.com</td> 
+                </tr>
+            </table>
+        </body>
