@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>patient information</title>
+    <style>
+      *{
+            margin: 0%;
+            padding: 0%;
+            font-family: Georgia;
+            font-weight: bold;
+        }
+        body{
+            background-image: url(../Assets/hospital\ img3.webp);
+            background-size: 100% 120%;
+        }
+        .contain{
+            width: 400px;
+            height: 500px;
+            background-color: rgb(27, 12, 61);
+            margin-left:65% ;
+            margin-top: 4%;
+            text-align: center;
+            color: beige;
+
+        }
+        .contain{
+            position: relative;
+            top:7%
+        }
+        .contain h1{
+            font-size: 30px;
+            color: rgb(29, 220, 245);
+        }
+        button{
+               padding: 10px;
+                cursor: pointer;
+                color: black;
+                border-radius: 5px;
+        }
+    
+    </style>
+    </head>
+    <body>
+       <div class="contain">
+         <div class="text">
+          <h1>patient information</h1><br><br>
+          <label for="Name">Name:</label>
+          <input type="text"Name="name"id="Name"><br><br><br>
+          <label for="MobNo">Mobile Number:</label>
+          <input type="number"Name="Mobilenumber"id="MobNo"><br><br><br>
+          <label for="email">email id:</label>
+          <input type="email"Name="email id"id="email"><br><br><br>    
+          <label for="Address">Address:</label>
+          <textarea name="Address"id="Address"cols="20"rows="3"></textarea><br><br><br>
+
+           <label> Gender:</label>
+              <input type="radio"id="male" name="Gender" value="male">
+               <label for="male"> male</label>  
+                <input type="radio"id="female" name="Gender" value="female">
+                  <label for="female">female</label> <br><br><br><br>
+           <button>Go Back</button>
