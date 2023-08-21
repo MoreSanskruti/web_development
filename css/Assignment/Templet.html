@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templet</title>
+    <style>
+      body{
+        border: 2px solid black;
+      }
+        header{
+            border: 2px solid black;
+             height: 250px;  
+             width: 100%; 
+             background-color: #85c9a0;
+        }
+        header>div{
+             display: inline-block; 
+             text-align: center; 
+             /* margin-top: 5px;  */
+             margin-left: 5px; 
+        }
+        .head-A{
+            margin-left: 600px;
+            /* height: 50px;  */
+            /* width: 100px; */
+            display: inline-block;
+             position: fixed; 
+             /* display: block; */
+             margin-top: 5px;
+        }
+        div>h1{
+            text-align: center;
+            margin-left: 90px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 50px;
+        }
+        .Navber{
+            border: 2px solid black;
+            background-color: #85c9a0;
+        }
+        .Nav{
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        border: solid 1px black;
+        background-color: #8da6eb;
+        color: white;
+       }
+     .Nav:hover{
+      cursor:pointer;
+      background-color: rgb(214, 151, 186);
+      color: rgb(45, 58, 94);
+      border-radius: 5px;
+      }
+     
+      .Main{
+     border: 1px solid black;
+     display: flex;
+     }
+     .Main-01 img{
+     margin: 3px;
+     padding: 0px 50px;
+     margin-left: 30px;
+    }
+   .Main-02{
+    position: sticky;
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 350px;
+    background-image: conic-gradient(red 0deg,red 90deg, green 90deg,green 200deg, blue 200deg, blue 270deg);
+  }
+  .main{
+    border: 1px solid black;
+    background-color: #85c9a0;
+  }
+  .main-3>div{
+        border: 1px solid black;
+        display: inline-block;
+        border-radius: 5px;
+        color: #faf4f4;
+        background-color: #7e0d12;
+        margin: 10px;
+        padding: 30px;
+        margin-left: 225px;
+        margin-right: 75px;
+  }
+    
+  .main-5>div{
+    display: inline-block;
+    border: 1px solid rgb(54, 12, 94);
+    margin: 10px;
+    margin-left: 220px;
+    margin-right: 45;
+    background-color: aqua;
+    padding: 10px;
+  }
+  .main-5>div:hover{
+    background-color: #62ce62;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  article>div{
+    display: inline-block;
+    width: 31%;
+    height: 50%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    text-align: center;
+    display: block;
+  }
+  #Card>div{
+    margin-left: 30px;
+    background-color: orange;
+    display: inline-block;
+    text-align: center;
+
+  }
+  footer{
+    background-color: #63bab4;
+    border: 1px solid black;
+    font-style: italic;
+    padding: 30px;
+  }
+  ul>li{
+    font-style: oblique;
+    margin-right: 2px;
+    margin-top: 20px;
+  }
+  #X{
+    color: blue;
+    margin-top: 150px;
+  }
+  #Y{
+    color: red;
+  }
+  #Z{
+    color: green;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Fork infosystems</h1>
+        </div>
+        <div class="head-A">
+            <img src="../Assets/fork infosystems.jpg">
+        </div>
+    </header>
+    <nav class="Navbar">
+        <div class="Nav"><a href="">Home</a></div>
+        <div class="Nav"><a href="">About</a></div>
+        <div class="Nav"><a href="">Contact</a></div> 
+        <div class="Nav"><a href="">Help</a></div>
+    </nav>
+     <div class="Main">
+        <div class="Main-01">
+          <img src="../Assets/school.png" alt="logo" height="350px" width="350px">
+        </div>
+           <div class="Main-02"></div>
+           <ul>
+           <li id="X">c</li>
+           <li id="Y">c++</li>
+           <li id="Z"> Web development</li>
+           </ul>
+      </div>
+      
+      <section class="A">
+      <div class="main">
+         <div class="main-3">
+            <div>c</div>
+             <div>c++</div>
+               <div>Web</div>
+          </div>
+      </div>
+
+      <article>
+        <div class="main-4">
+          <div id="Card">
+        <div>
+          <img src="../Assets/c logo.png" height="100px" width="100px">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos adipisci nesciunt rem fugit ea architecto natus nostrum maxime ratione, officiis veniam veritatis molestias corrupti commodi laboriosam rerum? Voluptate, officia consequatur.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, fugiat dolorum praesentium odio sint recusandae sit alias vero ad repudiandae quibusdam excepturi id fuga impedit saepe neque, at commodi explicabo?
+           </p>
+        </div>
+        <div>
+          <img src="../Assets/c++ logo.png"height="100px" width="100px">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, dolore quod optio quo possimus quaerat fugiat facere incidunt nam quos aut numquam ipsam cumque modi, eum inventore necessitatibus, vel maxime!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui a corporis doloribus, similique cupiditate quis, odio tempora odit recusandae consequuntur blanditiis explicabo aperiam tenetur nihil repellat natus. Numquam, eius doloremque.
+           </p>
+        </div>
+        <div>
+          <img src="../Assets/web logo.jpg"height="100px" width="100px">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, dolores deleniti distinctio inventore ipsam nihil saepe magnam accusantium porro necessitatibus ratione ut, soluta in magni suscipit dignissimos. Id, alias sapiente!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatem quia eius aut, provident accusamus suscipit voluptatum? Deleniti eveniet, esse animi, nisi vero praesentium a aspernatur quidem exercitationem repudiandae non Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           </p>
+           </div>
+        </div>
+        </div>
+      </article>
+      </section>
+      <div class="main">
+        <div class="main-5">
+           <div>Event</div>
+            <div>Seminar</div>
+              <div>Guest</div>
+              <div>Workshop</div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim blanditiis harum reprehenderit in voluptatem distinctio, maiores autem dolorem praesentium voluptate labore tenetur vel adipisci ipsum quisquam sit? Corrupti, harum id!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet nostrum rem ex esse perspiciatis aperiam, minima non ut pariatur exercitationem modi omnis iure cupiditate eius est velit, odio reiciendis aliquid.</p>
+         </div>
+     </div>
+     <footer>
+      <h1> Fork Infosystem</h1>
+      <p> <h2>Knowledge is interrelated!!!!</h2></p>
+      Addres- Near holy family convent high school,
+      KARAD.
+     </footer>
+
+
+     
+    
+</body>
+</html>
