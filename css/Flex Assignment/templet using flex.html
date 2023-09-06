@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templet </title>
+    <style>
+        body{
+            border: 3px solid black;
+            border-radius: 2px;
+        }
+        header{
+            padding: 10px;
+            display: flex;
+            border: 2px solid black;
+            background-color: rgb(175, 110, 236);
+
+        }
+        h1{
+            margin-left:30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 50px;
+        }
+        h2{
+            margin-left:30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+        h3{
+            margin-left: 30px;
+
+        }
+        header>div{
+            display: flex;
+            background-color: rgb(170, 113, 224);
+        }
+        .head-A1{
+            display: flex;
+            justify-content: flex-end;
+            margin-left: 750px;
+        }
+        #Navbar{
+            display: flex;
+            justify-content:flex-start;
+            color: rgb(238, 238, 241);
+            background-color: #c4a8cf;
+            height: 50px;
+            /* margin-top: 7px; */
+            border: 1px solid rgb(245, 241, 241);
+        }
+        nav>div{
+            margin-left: 35px;
+            margin-top: 5px;
+            /* border: 2px solid black; */
+            font-style:italic;
+            font-size: larger;
+            padding: 5px;
+            margin-top: 10px;
+            
+            
+        }
+        nav>div:hover{
+            cursor: pointer;
+            background-color:white;
+            border-radius: 10px;
+            color: black;
+        }
+        .main{
+            display: flex;
+            border: 1px solid black;
+            height: 300px;
+            width: 100%;
+        }
+        .main-02{
+            /* display: flex; */
+            background-image: conic-gradient(red 0deg,red 90deg, green 90deg,green 200deg, blue 200deg, blue 270deg);
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            margin-left: 550px;
+            margin-top: 30px;
+        }
+        .main-01{
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+        section{
+            display: flex;
+            padding: 10px;
+            border: 2px solid;
+        }
+        section>div{
+            background-color:#C4B0FF;
+            margin: 10px;
+            height: 400px;
+            flex-grow: 1;
+            border: 1px solid rgb(12, 0, 0);
+            width: 100%;
+        }
+        .img{
+            height: 100px; 
+            text-align: center;
+            margin-left: 130px;
+            padding: 10px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 300;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: 1px solid black;
+            /* padding:7px;  */
+            margin-top: 0px;
+            text-align: center;
+        }
+      
+       .Down{
+        background-color: #9D44C0;
+       }
+       .Down>p{
+        margin-bottom: 0%;
+        background-color: rgb(153, 83, 219);
+        padding: 5px;
+       }
+       #nav1{
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        padding-left: 30px;
+        height: 50px;
+        /* margin-top: 7px; */
+        /* padding-top: 8px; */
+        font-style: italic;
+        background-color: rgb(175, 140, 207);
+       }
+       #nav1>div{
+        margin-top: 5px;
+        margin-left: 20px;
+        /* background-color: gray; */
+        font-size: 20px;
+       }
+       #nav1>div:hover{
+        background-color: aliceblue;
+        color: black;
+        cursor: pointer;
+        border-radius: 7px;
+       }
+       footer{
+        background-color: rgb(112, 131, 230);
+        color: antiquewhite;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 0px;
+        padding:3px;
+        margin-left: 2px;
+       }
+       #X{
+        color: blue;
+       }
+       #Y{
+        color: red;
+       }
+       #Z{
+        color: green;
+       }
+       ul{
+        margin-left: 280px;
+        margin-top: 130px;
+        font-size: large;
+       }
+      
+    </style>
+</head>
+<body>
+    <header>
+            <h1> Fork Infosystems</h1>
+        <div class="head-A1">
+            <img src="../fork infosystems.jpg">
+        </div>
+    </header>
+            <nav id="Navbar">
+               <div>Home</div>
+               <div>About</div>
+               <div>Contact</div>
+               <div>Help</div>
+           </nav>
+    <div class="main">
+       <div class="main-01">
+       <img src="../school.png">
+       </div>
+      <div class="main-02">
+        <ul>
+            <li id="X">c</li>
+            <li id="Y">c++</li>
+            <li id="Z"> Web development</li>
+        </ul>
+      </div>
+   </div>
+   <section>
+    <div>
+        <p>c</p>
+        <div>
+            <img class="img" src="../c logo.png">
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse tenetur atque assumenda quisquam, consequuntur quae inventore, officia repellat nostrum dignissimos accusamus. Eaque, possimus fuga. Explicabo, facere? Eaque iste ad consectetur.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam veniam ratione quisquam quis aliquid laboriosam non, iusto molestiae ullam neque, temporibus quae nobis eaque maiores optio dolores ab excepturi.
+        </div>
+    </div>
+    <div>
+        <p>c++</p>
+        <div>
+            <img class="img" src="../c++ logo.png">
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse tenetur atque assumenda quisquam, consequuntur quae inventore, officia repellat nostrum dignissimos accusamus. Eaque, possimus fuga. Explicabo, facere? Eaque iste ad consectetur.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam veniam ratione quisquam quis aliquid laboriosam non, iusto molestiae ullam neque, temporibus quae nobis eaque maiores optio dolores ab excepturi.
+        </div>
+    </div>
+    <div>
+        <p>web development</p>
+        <div>
+            <img class="img" src="../web logo.jpg">
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse tenetur atque assumenda quisquam, consequuntur quae inventore, officia repellat nostrum dignissimos accusamus. Eaque, possimus fuga. Explicabo, facere? Eaque iste ad consectetur.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magnam veniam ratione quisquam quis aliquid laboriosam non, iusto molestiae ullam neque, temporibus quae nobis eaque maiores optio dolores ab excepturi.
+        </div>
+    </div>
+</section>
+    <div class="Down">
+        <div id="nav1">
+            <div>Event</div>
+             <div>Seminar</div>
+              <div>Guest</div>
+                <div>Workshop</div>
+        </div>  
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint veniam nostrum consequuntur deleniti, totam soluta distinctio ad quia, ex natus fuga quaerat delectus dolorem aperiam consectetur. Nulla, voluptas odit.</p>
+    </div>    
+        <footer>
+            <h1> Fork Infosystems</h1>
+           <h2>Knowledge is interrelated!!!!</h2>
+            <h3>Addres- Near holy family convent high school,
+            KARAD.</h3>
+        </footer>
+</body>
+</html>
