@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Institute Admin Login</title>
+	<style>
+		section{
+			border: 1px solid black;
+			margin-left: 500px;
+			margin-right: 500px;
+			padding: 30px;
+			padding-top:10px ;
+		}
+		.A{
+			
+			background-color: lightcyan;
+			
+			padding-bottom: 10px;
+			padding-top: 10px;
+			text-align:center;
+			font-size: 20px;
+			margin:20px ;
+		}
+		h1{
+			text-align: center;
+			padding: 10px;
+			font-family:arial;
+		}
+		button:hover{
+			background-color: green;
+			cursor: pointer;
+		}
+		
+		
+	</style>
+</head>
+<body class="B">
+
+	<form action="">
+		<section>
+		<div>
+			<h1>Register New Member</h1>
+		</div>
+		<label for="Full Name">Full Name:</label>
+		<input type="Text" name="Full Name"id="Full Name"><br><br>
+		<label for="Email">Email Id  : </label>
+		<input type="Text" name="Email"id="Email"><br><br>
+		<label for="Mobile No">Mobile No:</label>
+		<input type="Text" name="Mobile No"id="Mobile No"><br><br>
+		<label for="Gender">Gender:</label>
+		<input type="radio" name="Gender"/>Male
+		<input type="radio" name="Gender"/>Female<br><br>
+		<label for="Address">Address :</label>
+		<textarea name="Address" id="Address" cols="20"rows="3"></textarea><br><br>
+		<label for="Designation">Designation:</label>
+		<select>
+				<option value="Principal">Principal</option>
+				<option value="Teacher">Teacher</option>
+				<option value="Staff">Staff</option>
+
+		</select><br><br>
+		<label for="Department">Department:</label>
+		<select>
+				<option value=" Arts "> Arts </option>
+				<option value="Commerce">Commerce</option>
+				<option value="Science">Science</option>
+				<option value="Account">Account</option>
+			</select><br><br>
+		<a href="03.Update Member.html"target="_blank"><button class="A">Submit</button>
+		<button class="A">Reset</button>
+	</section>
+	</form>
+
+</body>
+</html>
